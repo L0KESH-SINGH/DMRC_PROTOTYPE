@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9AFF7FAA"
+    tools:context=".Main33Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_marginTop="60sp"
+            android:layout_marginBottom="30sp"
+            app:srcCompat="@drawable/a" />
+
+        <ImageButton
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            app:srcCompat="@drawable/b" />
+
+        <ImageButton
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            app:srcCompat="@drawable/c" />
+
+        <ImageButton
+            android:id="@+id/x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/common_full_open_on_phone" />
+
+        <ImageButton
+            android:id="@+id/y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/common_full_open_on_phone" />
+
+        <ImageButton
+            android:id="@+id/abc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/common_full_open_on_phone" />
+
+        <Button
+            android:id="@+id/signout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="40sp"
+            android:text="SIGN OUT" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
